@@ -1,4 +1,5 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/HerrHaban/hpa-content.git
+	branch = main
 
