@@ -1,4 +1,4 @@
-baseURL = "https://USERNAME.github.io/REPOSITORY/" # Update USERNAME/REPOSITORY after pushing to GitHub
+baseURL = "https://HerrHaban.github.io/hpa-site/" 
 title = "Haban Phenotyping & Analytics (HPA)"
 languageCode = "en-us"
 # Set the default language for the site
