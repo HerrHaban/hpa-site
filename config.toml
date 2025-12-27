@@ -1,0 +1,53 @@
+baseURL = "https://USERNAME.github.io/REPOSITORY/" # Update USERNAME/REPOSITORY after pushing to GitHub
+title = "Haban Phenotyping & Analytics (HPA)"
+languageCode = "en-us"
+# Set the default language for the site
+defaultContentLanguage = "en"
+
+# Name of the theme to use (we extracted the Universal theme locally)
+theme = "hugo-universal-theme"
+
+# Control summary length for summaries on list pages
+summaryLength = 70
+pluralizelisttitles = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Haban Phenotyping & Analytics"
+    # This content directory will be provided by the hpa-content submodule
+    contentDir = "content/en"
+
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 2
+    title = "Haban Phenotyping & Analytics"
+    contentDir = "content/de"
+
+# Main navigation menu. Hugo will automatically prepend the proper language prefix
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Services"
+    url  = "/services/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Expertise"
+    url  = "/expertise/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 5
